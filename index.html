@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Əsas səhifə</title>
+
+</head>
+<body>
+
+    <nav id="navbar">
+
+        <header>JavaScript</header>
+        <ul>
+            <a class="nav-link" href="Introduction"> <li>Giriş</li></a>
+            <a class="nav-link" href="What_you_should_know"> <li>Bilməli olduqların</li></a>
+            <a class="nav-link" href="JavaScript_and_Java"> <li>JavaScript və Java</li></a>
+            <a class="nav-link" href="Hello_world"> <li>Salam dünya</li></a>
+            <a class="nav-link" href=""> <li>Dəyişənlər</li></a>
+            <a class="nav-link" href=""> <li>Dəyişənlərin elan olunması</li></a>
+            <a class="nav-link" href=""> <li>Dəyişənlərin əhatə dairəsi</li></a>
+            <a class="nav-link" href=""> <li>Qlobal dəyişənlər</li></a>
+            <a class="nav-link" href=""> <li>Konstantlar</li></a>
+            <a class="nav-link" href=""> <li>Məlumat tipləri</li></a>
+            <a class="nav-link" href=""> <li>İf...else şərti operatorları</li></a>
+            <a class="nav-link" href=""> <li>While dövr operatoru</li></a>
+            <a class="nav-link" href=""> <li>Funksiya elanı</li></a>
+            <a class="nav-link" href=""> <li>Mənbə</li></a>
+            
+           
+        </ul>
+    </nav>
+    
+
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Giriş</header>
+            <article>
+            <p>JavaScript müxtəlif platformalarda istifadə olunan, öbyekyönümlü 
+                <a class="links"  target="_blank" href="https://az.wikipedia.org/wiki/Skriptl%C9%99%C5%9Fdirm%C9%99_dili">skriptləşdirmə</a> 
+                dilidir. Kiçik və yaddaşda az həcmli dildir. JavaScript <a class="links"  target="_blank" href="https://en.wikipedia.org/wiki/Hosting_environment">Host mühitində</a>  
+                JavaScript, həmin mühitdə olan obyektlərlə əlaqələndirilir ki, bunula da həmin obyektləri proqram kodları vasitəsi ilə idarə edir. </p>
+                <p> JavaScript özündə obyetklərin standart kitabxanasını, yəni Massiv(Array), Zaman(Date) və Riyazi(Math) kimi kitabxanaları birləşdirir. 
+                Bundan əlavə operatorlar, idarəetmə strukturları və əmrlər kimi əsas dil elementlərini birləşdirir. 
+                JavaScriptə əlavə obyektlər daxil etməklə onu müxtəlif məqsədlər üçün istifadə etmək olar. Məsələn </p>
+              
+                <ul>
+                    <li>Müştəri tərəfi JavaScript, Document Object Model (DOM) və brauzeri idarəetmək üçün obyektlər təmin edərək dili daha da genişləndirir. 
+                        Müştəri tərəfi əlavələr proqrama HTML form-unda elementlər əlavə etməyə, istifadəçi tərəfindən işə salınan hadisələrə(events) (mouseun düyməsini basmaq), 
+                        forma məlumat daxil etmək, səhifədə gəzinmək və.s) cavab verməyə imkan verir.</li>
+
+                        <li>Server tərəfi JavaScriptin serverdə istifadə ediləbilməsini təmin edən obyektlərlə təmin edərək dili genişləndir.
+                            Server tərəfi genişlənmələr applikasiyanın verilənlər bazası ilə əlqəsini, serverdə yerləşən fayllara dəyişiklərin edilməsini, 
+                            müştəri-server arasında informasiyanın ötürülməsində ardıcıllığın təmin edilməsi və.s təmin edir. </li>
+
+                </ul>
+            </article>
+        </section>
+
+
+        <section id="What_you_should_know" class="main-section">
+            <header>Bilməli olduqların</header>
+            <article>
+            <p>Bu bələdçidə aşağıdakılar haqqında məlumatın olduğu qəbul olunmuşdur: </p>
+              
+                <ul>
+                    <li>İnternetin və World Wide Web(WWW) haqqında ümumi fikirlər.</li>
+                    <li>  HTML ilə işləmə bacarığı.</li>
+                        <li>Proqramlaşdırma bacarığı. Əgər proqramlaşdırmaya yeni başlayırsansa onda 
+                            <a href="http://freecodecamp.org" target="_blank" class="links" >freeCodeCamp.org</a> 
+                             da olan JavaScript dərslərinə nəzər sal.</li>
+                </ul>
+            </article>
+        </section>
+
+
+        <section id="JavaScript_and_Java" class="main-section">
+            <header>JavaScript və Java</header>
+            <article>
+            <p>JavaScript və Java bəzi hissələrdə bir-birinə bənzəyir, digər hissələrdə isə fundemental olaraq fərqlənirlər. 
+                JavaScript dili Javanya bənzəsə də, Javanda olan static və strong typing checking JavaScriptdə yoxdur.
+                 Lakin JavaScriptdə olan ifadələr sintaksisi, adlandırma qaydaları və sadə idarəetmə axını konstruksiyası Java ilə eynidir.
+                  Bu səbəbdən də, adı LiveScript-dən JavaScript-ə dəyişdirilmişdir.  </p>
+                </article>
+        </section>
+
+        <section id="Hello_world" class="main-section">
+            <header>JavaScript və Java</header>
+            <article>
+            <p>JavaScriptlə kod yazmaq üçün, js.do açın və aşağıdakı "Salam Dünya" kodunu yazın.   </p>
+            <code>function greetMe(variable) 
+                    { 
+                        alert("Salam " + variable); 
+                    }
+                    greetMe("Dünya");</code>
+            <p>Kodu yazdıqdan sonra "Run" düyməsinə basın və nəticə ekranda çıxacaq.</p>
+        </article>
+
+        </section>
+    </main>
+
+</body>
+</html>
