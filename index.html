@@ -5,36 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="qz5USUR87KjSO_aT57RSDQSyD2aYMiDh1JVNhRYGsVA" />
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"  src="script.js" async></script>
     <title>JavaScript Azərbaycan</title>
 
 </head>
 <body>
-
+    
     <nav id="navbar">
-
+        
+        <div id="headOfSite">
         <header> JavaScript</header>
+
+        <div id="darkModeButton">
+            <p>Gecə modu</p> 
+            <label class="switch">
+                <input type="checkbox"  id="checkbox" onchange="darkMode()" >
+                <span class="slider round"></span>
+              </label>
+        </div>
+    </div>
+
         <ul>
             <a class="nav-link" href="#Giris"> <li>Giriş</li></a>
             <a class="nav-link" href="#BilmeliOlduqlarin"> <li>Bilməli olduqların</li></a>
             <a class="nav-link" href="#JavaScriptVeJava"> <li>JavaScript və Java</li></a>
             <a class="nav-link" href="#SalamDunya"> <li>Salam dünya</li></a>
-            <a class="nav-link" href=""> <li>Dəyişənlər</li></a>
-            <a class="nav-link" href=""> <li>Dəyişənlərin elan olunması</li></a>
-            <a class="nav-link" href=""> <li>Dəyişənlərin əhatə dairəsi</li></a>
-            <a class="nav-link" href=""> <li>Qlobal dəyişənlər</li></a>
-            <a class="nav-link" href=""> <li>Konstantlar</li></a>
-            <a class="nav-link" href=""> <li>Məlumat tipləri</li></a>
-            <a class="nav-link" href=""> <li>İf...else şərti operatorları</li></a>
-            <a class="nav-link" href=""> <li>While dövr operatoru</li></a>
-            <a class="nav-link" href=""> <li>Funksiya elanı</li></a>
             <a class="nav-link" href="#menbe" > <li>Mənbə</li></a>
+       
             
-           
+            
         </ul>
+        
     </nav>
     
-
+    
     <main id="mainDoc">
+       
+            <div class="progressBar" id="myBar"></div>
+           
+        <div class="line" id="scrollIndicator"></div>
         <section id="Giris" class="main-section">
             <header>Giriş</header>
             <article>
@@ -99,7 +108,10 @@
         </article>
         <a id="menbe" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">Mənbə</a>
         </section>
+    
+        
     </main>
+    
 
 </body>
 </html>
