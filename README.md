@@ -13,4 +13,3 @@ Section teqinin daxilində isə lazım olan məlumatlar yerləşdiriləcək. Hə
 Səhifənin başında gələn "nav" teqinin daxilinə isə, uyğun olaraq hər bir bölmənin başlığına keçid linki qoyulmalıdır ki, saytda naviqasiya olduqca sadə olsun.  
 
 
-# Saytın css və script faylları ancaq ümumi müzakirədən sonra dəyişdirilə bilər.   
